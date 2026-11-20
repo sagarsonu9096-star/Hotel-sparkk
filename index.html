@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hotel Sparkk Deluxe | Comfortable Stay in Paharganj, New Delhi</title>
+<meta name="description" content="Hotel Sparkk Deluxe, Paharganj, New Delhi. Clean AC rooms, Wi-Fi, parking and a friendly front desk, minutes from New Delhi Railway Station. Book on WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Hotel","name":"Hotel Sparkk Deluxe","telephone":"+917838563021","address":{"@type":"PostalAddress","streetAddress":"9360, Gali No. 8, Multani Dhanda, Paharganj","addressLocality":"New Delhi","postalCode":"110055","addressCountry":"IN"},"image":"images/building.jpg"}
+</script>
+<style>
+:root{
+  --navy:#0b1630; --navy2:#12214a; --gold:#d4a84b; --gold2:#f0cf86;
+  --ink:#10162b; --cream:#faf6ee; --muted:#6b7280; --wa:#25d366;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;line-height:1.1;font-weight:700}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.eyebrow{font-size:.75rem;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);font-weight:600}
+
+/* NAV */
+nav{position:fixed;inset:0 0 auto 0;z-index:50;padding:14px 0;transition:.35s}
+nav.solid{background:rgba(11,22,48,.94);backdrop-filter:blur(8px);padding:9px 0;box-shadow:0 4px 24px rgba(0,0,0,.25)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between}
+.logo{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:1.55rem;color:#fff;letter-spacing:.02em}
+.logo span{color:var(--gold)}
+nav ul{display:flex;gap:26px;list-style:none}
+nav ul a{color:#fff;font-size:.88rem;opacity:.9}
+nav ul a:hover{color:var(--gold2)}
+.btn{display:inline-flex;align-items:center;gap:9px;padding:13px 26px;border-radius:50px;font-weight:600;font-size:.95rem;border:0;cursor:pointer;transition:.25s}
+.btn-gold{background:linear-gradient(135deg,var(--gold),var(--gold2));color:var(--navy)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(212,168,75,.4)}
+.btn-wa{background:var(--wa);color:#fff}
+.btn-wa:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(37,211,102,.4)}
+.btn-line{border:1.5px solid rgba(255,255,255,.7);color:#fff;background:transparent}
+.btn-line:hover{background:#fff;color:var(--navy)}
+@media(max-width:820px){nav ul{display:none}}
+
+/* HERO */
+.hero{position:relative;height:100vh;min-height:620px;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;overflow:hidden;background:var(--navy)}
+.slides,.hero video{position:absolute;inset:0;width:100%;height:100%}
+.slides div{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;animation:fade 30s infinite;transform:scale(1.05)}
+.slides div:nth-child(1){animation-delay:0s}
+.slides div:nth-child(2){animation-delay:5s}
+.slides div:nth-child(3){animation-delay:10s}
+.slides div:nth-child(4){animation-delay:15s}
+.slides div:nth-child(5){animation-delay:20s}
+.slides div:nth-child(6){animation-delay:25s}
+@keyframes fade{0%{opacity:0;transform:scale(1.05)}4%{opacity:1}16%{opacity:1}22%{opacity:0;transform:scale(1.16)}100%{opacity:0}}
+.hero video{object-fit:cover}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,22,48,.55) 0%,rgba(11,22,48,.35) 40%,rgba(11,22,48,.85) 100%)}
+.hero-in{position:relative;z-index:2;padding:0 20px;max-width:860px}
+.hero h1{font-size:clamp(2.8rem,8vw,5.8rem);margin:16px 0 18px;text-shadow:0 4px 30px rgba(0,0,0,.4)}
+.hero h1 em{color:var(--gold2);font-style:italic}
+.hero p{font-size:clamp(1rem,2.2vw,1.2rem);opacity:.92;max-width:600px;margin:0 auto 32px}
+.hero-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.scroll{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);z-index:2;width:24px;height:40px;border:2px solid rgba(255,255,255,.6);border-radius:14px}
+.scroll::after{content:"";position:absolute;top:7px;left:50%;width:4px;height:8px;margin-left:-2px;background:#fff;border-radius:3px;animation:sc 1.6s infinite}
+@keyframes sc{0%{opacity:1;transform:translateY(0)}100%{opacity:0;transform:translateY(14px)}}
+
+/* STRIP */
+.strip{background:var(--navy);color:#fff;padding:26px 0}
+.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;text-align:center}
+.strip b{display:block;font-family:'Cormorant Garamond',serif;font-size:1.35rem;color:var(--gold2)}
+.strip small{opacity:.8;font-size:.82rem}
+@media(max-width:700px){.strip .wrap{grid-template-columns:1fr 1fr}}
+
+/* ABOUT */
+section{position:relative}
+.about{padding:96px 0;background:var(--cream)}
+.about .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:center}
+.about h2{font-size:clamp(2.2rem,5vw,3.4rem);margin:10px 0 18px}
+.about p{color:#3b4256;margin-bottom:14px}
+.about .pic{position:relative;height:540px;border-radius:6px;overflow:hidden;box-shadow:0 30px 60px rgba(11,22,48,.25)}
+.about .pic img{width:100%;height:100%;object-fit:cover}
+.about .pic::before{content:"";position:absolute;inset:14px;border:1px solid rgba(240,207,134,.85);z-index:2;pointer-events:none}
+@media(max-width:860px){.about .wrap{grid-template-columns:1fr;gap:34px}.about .pic{height:380px}.about{padding:64px 0}}
+
+/* ROOMS - full frame */
+.rooms-head{padding:90px 20px 50px;text-align:center;background:var(--navy);color:#fff}
+.rooms-head h2{font-size:clamp(2.2rem,5vw,3.6rem);margin-top:10px}
+.rooms-head p{opacity:.8;max-width:560px;margin:14px auto 0}
+.room{position:relative;min-height:100vh;display:flex;align-items:flex-end;color:#fff;overflow:hidden;background:var(--navy)}
+.room img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;transition:transform 9s ease}
+.room:hover img.bg{transform:scale(1.06)}
+.room::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,22,48,0) 38%,rgba(11,22,48,.92) 100%)}
+.room .txt{position:relative;z-index:2;width:100%;padding:0 0 60px}
+.room .txt .wrap{display:flex;justify-content:space-between;align-items:flex-end;gap:28px;flex-wrap:wrap}
+.room h3{font-size:clamp(2rem,5vw,3.4rem)}
+.room p{max-width:520px;opacity:.9;margin-top:8px}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.tags span{font-size:.75rem;padding:5px 13px;border:1px solid rgba(240,207,134,.7);border-radius:30px;color:var(--gold2)}
+.room .no{position:absolute;top:90px;right:24px;z-index:2;font-family:'Cormorant Garamond',serif;font-size:5rem;color:rgba(255,255,255,.18);font-weight:700}
+@media(min-width:900px){
+  .room{min-height:100vh}
+  .room img.bg{width:62%;left:auto;right:0}
+  .room:nth-of-type(even) img.bg{left:0;right:auto}
+  .room::after{background:linear-gradient(90deg,var(--navy) 38%,rgba(11,22,48,0) 70%)}
+  .room:nth-of-type(even)::after{background:linear-gradient(270deg,var(--navy) 38%,rgba(11,22,48,0) 70%)}
+  .room .txt{position:absolute;top:50%;transform:translateY(-50%);padding:0}
+  .room .txt .wrap{display:block}
+  .room .txt .in{width:38%}
+  .room:nth-of-type(even) .txt .in{margin-left:auto}
+  .room .no{top:auto;bottom:30px}
+}
+.room .btn{margin-top:20px}
+
+/* FACILITIES */
+.fac{padding:96px 0;background:var(--cream);text-align:center}
+.fac h2{font-size:clamp(2.2rem,5vw,3.3rem);margin:10px 0 44px}
+.fac-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+.fac-grid div{background:#fff;padding:34px 20px;border-radius:6px;box-shadow:0 8px 28px rgba(11,22,48,.07);transition:.3s}
+.fac-grid div:hover{transform:translateY(-6px);box-shadow:0 18px 38px rgba(11,22,48,.14)}
+.fac-grid i{font-style:normal;font-size:2rem;display:block;margin-bottom:10px}
+.fac-grid b{display:block;margin-bottom:4px}
+.fac-grid small{color:var(--muted)}
+
+/* GALLERY */
+.gal{padding:20px 0 96px;background:var(--cream)}
+.gal h2{text-align:center;font-size:clamp(2.2rem,5vw,3.3rem);margin:10px 0 40px}
+.gal-head{text-align:center}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:260px;gap:10px}
+.grid a{position:relative;overflow:hidden;border-radius:4px;cursor:zoom-in}
+.grid a img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.grid a:hover img{transform:scale(1.1)}
+.grid a:nth-child(1),.grid a:nth-child(6){grid-column:span 2}
+@media(max-width:800px){.grid{grid-template-columns:1fr 1fr;grid-auto-rows:200px}.grid a:nth-child(1),.grid a:nth-child(6){grid-column:span 2}}
+.lb{position:fixed;inset:0;background:rgba(5,10,24,.96);z-index:100;display:none;align-items:center;justify-content:center;padding:20px}
+.lb.on{display:flex}
+.lb img{max-height:92vh;max-width:96vw;object-fit:contain}
+.lb button{position:absolute;top:18px;right:22px;background:none;border:0;color:#fff;font-size:2.4rem;cursor:pointer}
+
+/* BOOK */
+.book{padding:96px 0;background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff}
+.book .wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.book h2{font-size:clamp(2.2rem,5vw,3.4rem);margin:10px 0 16px}
+.book p{opacity:.85;margin-bottom:12px}
+.form{background:#fff;color:var(--ink);padding:32px;border-radius:8px;box-shadow:0 30px 60px rgba(0,0,0,.35)}
+.form label{display:block;font-size:.78rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:14px 0 6px}
+.form input,.form select{width:100%;padding:13px 14px;border:1.5px solid #d9dce5;border-radius:6px;font:inherit;background:#fff}
+.form input:focus,.form select:focus{outline:0;border-color:var(--gold)}
+.form .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.form .btn{width:100%;justify-content:center;margin-top:22px}
+@media(max-width:860px){.book .wrap{grid-template-columns:1fr;gap:34px}.book{padding:64px 0}}
+
+/* LOCATION */
+.loc{padding:96px 0;background:var(--cream)}
+.loc .wrap{display:grid;grid-template-columns:1fr 1.3fr;gap:44px;align-items:stretch}
+.loc h2{font-size:clamp(2.2rem,5vw,3.3rem);margin:10px 0 18px}
+.loc ul{list-style:none;margin-top:16px}
+.loc li{padding:14px 0;border-bottom:1px solid #e6dfd0;display:flex;gap:14px}
+.loc li b{min-width:92px;color:var(--navy)}
+.map{min-height:380px;border-radius:6px;overflow:hidden;box-shadow:0 20px 44px rgba(11,22,48,.18)}
+.map iframe{width:100%;height:100%;min-height:380px;border:0}
+@media(max-width:860px){.loc .wrap{grid-template-columns:1fr}.loc{padding:64px 0}}
+
+footer{background:var(--navy);color:#fff;text-align:center;padding:44px 20px 100px}
+footer .logo{font-size:1.9rem}
+footer p{opacity:.7;font-size:.88rem;margin-top:8px}
+
+.fab{position:fixed;right:18px;bottom:18px;z-index:60;display:flex;flex-direction:column;gap:10px}
+.fab a{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;box-shadow:0 8px 22px rgba(0,0,0,.35);transition:.25s}
+.fab a:hover{transform:scale(1.1)}
+.fab .w{background:var(--wa)}
+.fab .c{background:var(--gold)}
+.fab svg{width:28px;height:28px}
+
+.rv{opacity:0;transform:translateY(34px);transition:1s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <div class="wrap">
+    <a href="#top" class="logo">Hotel <span>Sparkk</span> Deluxe</a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#rooms">Rooms</a></li>
+      <li><a href="#facilities">Facilities</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#location">Location</a></li>
+    </ul>
+    <a class="btn btn-gold" href="#book" style="padding:10px 22px">Book Now</a>
+  </div>
+</nav>
+
+<!-- HERO: video plays if hero.mp4 is uploaded, otherwise the photo slideshow plays -->
+<header class="hero" id="top">
+  <div class="slides" aria-hidden="true">
+    <div style="background-image:url('images/building.jpg')"></div>
+    <div style="background-image:url('images/lobby-1.jpg')"></div>
+    <div style="background-image:url('images/room-royal.jpg')"></div>
+    <div style="background-image:url('images/reception.jpg')"></div>
+    <div style="background-image:url('images/room-round.jpg')"></div>
+    <div style="background-image:url('images/lobby-2.jpg')"></div>
+  </div>
+  <video autoplay muted loop playsinline preload="auto" poster="images/building.jpg" onerror="this.style.display='none'">
+    <source src="hero.mp4" type="video/mp4" onerror="this.parentNode.style.display='none'">
+  </video>
+  <div class="hero-in">
+    <span class="eyebrow">Paharganj · New Delhi</span>
+    <h1>Stay <em>Comfortable</em>,<br>Stay Sparkk</h1>
+    <p>Clean AC rooms, a warm welcome and an easy location in the heart of Paharganj.</p>
+    <div class="hero-btns">
+      <a class="btn btn-wa" href="https://wa.me/917838563021?text=Hello%20Hotel%20Sparkk%20Deluxe%2C%20I%20would%20like%20to%20book%20a%20room." target="_blank" rel="noopener">Book on WhatsApp</a>
+      <a class="btn btn-line" href="#rooms">View Rooms</a>
+    </div>
+  </div>
+  <div class="scroll"></div>
+</header>
+
+<div class="strip">
+  <div class="wrap">
+    <div><b>AC Rooms</b><small>Clean &amp; comfortable</small></div>
+    <div><b>Free Wi-Fi</b><small>Stay connected</small></div>
+    <div><b>Parking</b><small>Available at the property</small></div>
+    <div><b>Paharganj</b><small>Near New Delhi Station</small></div>
+  </div>
+</div>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="rv">
+      <span class="eyebrow">Welcome</span>
+      <h2>A simple, clean stay in the middle of Delhi</h2>
+      <p>Hotel Sparkk Deluxe sits in Gali No. 8, Multani Dhanda, Paharganj, a short walk from New Delhi Railway Station and the main bazaar. Whether you are in Delhi for a night or a week, we keep things simple: a tidy room, fresh linen, a proper bed and a front desk that is happy to help.</p>
+      <p>Walk in through our lobby, check in at the reception and settle in. For rates and availability, message us on WhatsApp and we will reply with the best options for your dates.</p>
+      <a class="btn btn-gold" href="#book" style="margin-top:10px">Check Availability</a>
+    </div>
+    <div class="pic rv"><img src="images/building.jpg" alt="Hotel Sparkk Deluxe building, Paharganj" loading="lazy"></div>
+  </div>
+</section>
+
+<div class="rooms-head" id="rooms">
+  <span class="eyebrow">Our Rooms</span>
+  <h2>Rest well, wake up fresh</h2>
+  <p>Every room has a comfortable double bed, fresh linen and air conditioning. Message us for today's rates.</p>
+</div>
+
+<section class="room">
+  <img class="bg" src="images/room-royal.jpg" alt="Deluxe room with cushioned headboard" loading="lazy">
+  <span class="no">01</span>
+  <div class="txt"><div class="wrap"><div class="in">
+    <h3>Deluxe Room</h3>
+    <p>A plush padded headboard, crisp white linen and royal blue accents for a calm, restful night.</p>
+    <div class="tags"><span>Double Bed</span><span>AC</span><span>Wi-Fi</span></div>
+    <a class="btn btn-gold" href="https://wa.me/917838563021?text=Hello%2C%20I%20want%20to%20book%20the%20Deluxe%20Room." target="_blank" rel="noopener">Ask Rate on WhatsApp</a>
+  </div></div></div>
+</section>
+
+<section class="room">
+  <img class="bg" src="images/room-round.jpg" alt="Round bed room" loading="lazy">
+  <span class="no">02</span>
+  <div class="txt"><div class="wrap"><div class="in">
+    <h3>Round Bed Room</h3>
+    <p>Something a little different: a statement round bed with a red runner, set by a bright window.</p>
+    <div class="tags"><span>Round Bed</span><span>AC</span><span>Wi-Fi</span></div>
+    <a class="btn btn-gold" href="https://wa.me/917838563021?text=Hello%2C%20I%20want%20to%20book%20the%20Round%20Bed%20Room." target="_blank" rel="noopener">Ask Rate on WhatsApp</a>
+  </div></div></div>
+</section>
+
+<section class="room">
+  <img class="bg" src="images/room-premium.jpg" alt="Premium room with marble tile walls" loading="lazy">
+  <span class="no">03</span>
+  <div class="txt"><div class="wrap"><div class="in">
+    <h3>Premium Room</h3>
+    <p>Bright marble-finish walls, a spacious floor and warm golden tones that make the room feel open.</p>
+    <div class="tags"><span>Double Bed</span><span>AC</span><span>Wi-Fi</span></div>
+    <a class="btn btn-gold" href="https://wa.me/917838563021?text=Hello%2C%20I%20want%20to%20book%20the%20Premium%20Room." target="_blank" rel="noopener">Ask Rate on WhatsApp</a>
+  </div></div></div>
+</section>
+
+<section class="room">
+  <img class="bg" src="images/room-deluxe-blue.jpg" alt="Double room with blue runner" loading="lazy">
+  <span class="no">04</span>
+  <div class="txt"><div class="wrap"><div class="in">
+    <h3>Classic Double Room</h3>
+    <p>A clean, no-fuss double room with fresh white bedding, bedside table and a comfortable sofa seat.</p>
+    <div class="tags"><span>Double Bed</span><span>AC</span><span>Sofa Seat</span></div>
+    <a class="btn btn-gold" href="https://wa.me/917838563021?text=Hello%2C%20I%20want%20to%20book%20the%20Classic%20Double%20Room." target="_blank" rel="noopener">Ask Rate on WhatsApp</a>
+  </div></div></div>
+</section>
+
+<section class="room">
+  <img class="bg" src="images/room-teal.jpg" alt="Double room with teal runner and TV" loading="lazy">
+  <span class="no">05</span>
+  <div class="txt"><div class="wrap"><div class="in">
+    <h3>Standard Room</h3>
+    <p>Cool teal tones, a TV with remote and a spotless bed. Everything you need for a good night's sleep.</p>
+    <div class="tags"><span>Double Bed</span><span>AC</span><span>TV</span></div>
+    <a class="btn btn-gold" href="https://wa.me/917838563021?text=Hello%2C%20I%20want%20to%20book%20the%20Standard%20Room." target="_blank" rel="noopener">Ask Rate on WhatsApp</a>
+  </div></div></div>
+</section>
+
+<section class="room">
+  <img class="bg" src="images/room-sunburst.jpg" alt="Room with sunburst headboard" loading="lazy">
+  <span class="no">06</span>
+  <div class="txt"><div class="wrap"><div class="in">
+    <h3>Comfort Room</h3>
+    <p>Warm cream walls, a designer corner headboard and rust-orange cushions for a cosy stay.</p>
+    <div class="tags"><span>Double Bed</span><span>AC</span><span>Wi-Fi</span></div>
+    <a class="btn btn-gold" href="https://wa.me/917838563021?text=Hello%2C%20I%20want%20to%20book%20the%20Comfort%20Room." target="_blank" rel="noopener">Ask Rate on WhatsApp</a>
+  </div></div></div>
+</section>
+
+<section class="fac" id="facilities">
+  <div class="wrap">
+    <span class="eyebrow">Facilities</span>
+    <h2>Everything for an easy stay</h2>
+    <div class="fac-grid rv">
+      <div><i>❄️</i><b>Air Conditioning</b><small>In all rooms</small></div>
+      <div><i>📶</i><b>Free Wi-Fi</b><small>Across the property</small></div>
+      <div><i>🅿️</i><b>Parking</b><small>Available at the property</small></div>
+      <div><i>📺</i><b>TV in Rooms</b><small>With remote</small></div>
+      <div><i>🛎️</i><b>Front Desk</b><small>Friendly help on arrival</small></div>
+      <div><i>🛏️</i><b>Fresh Linen</b><small>Clean sheets and towels</small></div>
+    </div>
+  </div>
+</section>
+
+<section class="gal" id="gallery">
+  <div class="wrap">
+    <div class="gal-head"><span class="eyebrow">Gallery</span></div>
+    <h2>A look inside</h2>
+    <div class="grid" id="grid">
+      <a href="images/lobby-1.jpg"><img src="images/lobby-1.jpg" alt="Lobby lounge" loading="lazy"></a>
+      <a href="images/room-sunburst.jpg"><img src="images/room-sunburst.jpg" alt="Comfort room" loading="lazy"></a>
+      <a href="images/reception.jpg"><img src="images/reception.jpg" alt="Reception" loading="lazy"></a>
+      <a href="images/room-teal.jpg"><img src="images/room-teal.jpg" alt="Standard room" loading="lazy"></a>
+      <a href="images/lobby-2.jpg"><img src="images/lobby-2.jpg" alt="Lobby mirror wall" loading="lazy"></a>
+      <a href="images/room-green.jpg"><img src="images/room-green.jpg" alt="Room with green accents" loading="lazy"></a>
+      <a href="images/room-round.jpg"><img src="images/room-round.jpg" alt="Round bed room" loading="lazy"></a>
+      <a href="images/room-royal.jpg"><img src="images/room-royal.jpg" alt="Deluxe room" loading="lazy"></a>
+    </div>
+  </div>
+</section>
+
+<div class="lb" id="lb"><button aria-label="Close">×</button><img alt=""></div>
+
+<section class="book" id="book">
+  <div class="wrap">
+    <div class="rv">
+      <span class="eyebrow">Reservations</span>
+      <h2>Book your room in a minute</h2>
+      <p>Pick your dates and send. Your details open in WhatsApp as a ready message and we will reply with availability and rates.</p>
+      <p>Prefer to talk? Call <b>078385 63021</b>.</p>
+    </div>
+    <form class="form rv" id="bf">
+      <div class="row">
+        <div><label for="ci">Check-in</label><input type="date" id="ci" required></div>
+        <div><label for="co">Check-out</label><input type="date" id="co" required></div>
+      </div>
+      <div class="row">
+        <div><label for="gu">Guests</label>
+          <select id="gu"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5+</option></select></div>
+        <div><label for="rt">Room</label>
+          <select id="rt"><option>Any room</option><option>Deluxe Room</option><option>Round Bed Room</option><option>Premium Room</option><option>Classic Double Room</option><option>Standard Room</option><option>Comfort Room</option></select></div>
+      </div>
+      <label for="nm">Your name</label>
+      <input type="text" id="nm" placeholder="Full name" required>
+      <button class="btn btn-wa" type="submit">Send on WhatsApp</button>
+    </form>
+  </div>
+</section>
+
+<section class="loc" id="location">
+  <div class="wrap">
+    <div class="rv">
+      <span class="eyebrow">Find Us</span>
+      <h2>In the heart of Paharganj</h2>
+      <ul>
+        <li><b>Address</b><span>9360, Gali No. 8, Multani Dhanda, Paharganj, New Delhi, Delhi 110055</span></li>
+        <li><b>Phone</b><span><a href="tel:+917838563021">078385 63021</a></span></li>
+        <li><b>WhatsApp</b><span><a href="https://wa.me/917838563021" target="_blank" rel="noopener">Message us</a></span></li>
+      </ul>
+      <a class="btn btn-gold" style="margin-top:24px" href="https://www.google.com/maps/search/?api=1&query=Hotel+Sparkk+Deluxe+Paharganj+New+Delhi" target="_blank" rel="noopener">Get Directions</a>
+    </div>
+    <div class="map rv">
+      <iframe title="Hotel Sparkk Deluxe on map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Hotel+Sparkk+Deluxe+Paharganj+New+Delhi&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="logo">Hotel <span style="color:var(--gold)">Sparkk</span> Deluxe</div>
+  <p>9360, Gali No. 8, Multani Dhanda, Paharganj, New Delhi 110055 · 078385 63021</p>
+  <p>© <span id="yr"></span> Hotel Sparkk Deluxe. All rights reserved.</p>
+</footer>
+
+<div class="fab">
+  <a class="w" href="https://wa.me/917838563021?text=Hello%20Hotel%20Sparkk%20Deluxe" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 32 32" fill="#fff"><path d="M16 3C9 3 3.4 8.6 3.4 15.5c0 2.4.7 4.7 1.9 6.6L3.2 29l7.1-2.1a12.6 12.6 0 0 0 5.7 1.4C23 28.3 28.6 22.7 28.6 15.7S23 3 16 3zm0 22.9c-1.9 0-3.700-.5-5.300-1.500l-.4-.2-4.200 1.200 1.300-4.100-.3-.4a10.200 10.200 0 0 1-1.600-5.400C5.500 9.900 10.200 5.300 16 5.300s10.500 4.600 10.500 10.300S21.800 25.900 16 25.900zm5.800-7.600c-.3-.2-1.900-.9-2.200-1s-.5-.2-.7.200-.8 1-1 1.200-.4.200-.7.100a8.500 8.500 0 0 1-4.200-3.700c-.3-.6.300-.5.900-1.700.1-.2 0-.4 0-.5l-1-2.300c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.100-.8.400s-1 1-1 2.500 1.100 2.900 1.200 3.100 2.100 3.300 5.200 4.600c1.900.8 2.700.9 3.600.7.600-.1 1.900-.8 2.200-1.500s.3-1.400.2-1.500-.3-.2-.6-.4z"/></svg>
+  </a>
+  <a class="c" href="tel:+917838563021" aria-label="Call">
+    <svg viewBox="0 0 24 24" fill="#0b1630"><path d="M6.600 10.800a15 15 0 0 0 6.600 6.600l2.200-2.200a1 1 0 0 1 1-.25 11.400 11.400 0 0 0 3.600.6 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.500a1 1 0 0 1 1 1c0 1.300.2 2.500.6 3.600a1 1 0 0 1-.25 1z"/></svg>
+  </a>
+</div>
+
+<script>
+(function(){
+  var nav=document.getElementById('nav');
+  function s(){nav.classList.toggle('solid',window.scrollY>60)}
+  s();window.addEventListener('scroll',s,{passive:true});
+
+  var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{threshold:.15});
+  document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+
+  var lb=document.getElementById('lb'),li=lb.querySelector('img');
+  document.querySelectorAll('#grid a').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();li.src=a.getAttribute('href');lb.classList.add('on')})});
+  lb.addEventListener('click',function(){lb.classList.remove('on')});
+
+  var t=new Date().toISOString().split('T')[0],ci=document.getElementById('ci'),co=document.getElementById('co');
+  ci.min=t;co.min=t;
+  ci.addEventListener('change',function(){co.min=ci.value;if(co.value&&co.value<=ci.value)co.value=''});
+
+  document.getElementById('bf').addEventListener('submit',function(e){
+    e.preventDefault();
+    var m='Hello Hotel Sparkk Deluxe,\nName: '+document.getElementById('nm').value+
+      '\nCheck-in: '+ci.value+'\nCheck-out: '+co.value+
+      '\nGuests: '+document.getElementById('gu').value+
+      '\nRoom: '+document.getElementById('rt').value+
+      '\nPlease share availability and rates.';
+    window.open('https://wa.me/917838563021?text='+encodeURIComponent(m),'_blank');
+  });
+  document.getElementById('yr').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
